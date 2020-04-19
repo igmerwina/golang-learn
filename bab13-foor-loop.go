@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainLoop() {
 	// cara 1
 	// for i := 0; i < 5; i++ {
 	// 	fmt.Println("Sapi ke:", i)

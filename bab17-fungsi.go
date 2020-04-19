@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainFunc() {
 	divideNumber(10, 2)
 	divideNumber(4, 0)
 	divideNumber(8, -4)

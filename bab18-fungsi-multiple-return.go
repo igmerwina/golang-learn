@@ -1,18 +1,20 @@
 package main
 
-import "fmt"
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
-func main() {
+func mainFuncMultiple() {
 	var diameter float64 = 15
-	var area, circumference = calculate(diameter)
+	var area, circumference = calculated(diameter)
 
 	fmt.Printf("luas lingkaran\t\t: %.2f \n", area)
 	fmt.Printf("keliling lingkaran\t: %.2f \n", circumference)
 }
 
 //  Fungsi Dengan Predefined Return Value
-func calculate(d float64) (area float64, circumference float64) {
+func calculated(d float64) (area float64, circumference float64) {
 	area = math.Pi * math.Pow(d/2, 2)
 	circumference = math.Pi * d
 

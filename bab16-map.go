@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainMap() {
 	var ayam = map[string]int{
 		"ayam goreng":   100,
 		"ayam panggang": 50,

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainArr() {
 	// --- cara 1 ---
 	// var fruits = [4]string{"apple", "grape", "banana"}
 

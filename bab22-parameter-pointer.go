@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // -- parameter pointer --
-func main() {
+func mainParameter() {
 	var num = 4
 	fmt.Println(num)
 

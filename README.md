@@ -5,3 +5,5 @@
 Sumber : [Go Lang by Noval Agung](https://dasarpemrogramangolang.novalagung.com)
 
 Gak semua kode di tutorial saya tulis :smile: 
+
+### Semangat :rocket:

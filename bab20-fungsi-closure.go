@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainFuncClosure() {
 	var getMinMax = func(n []int) (int, int) {
 		var min, max int
 		for i, e := range n {

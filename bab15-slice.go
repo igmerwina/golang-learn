@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainSlice() {
 	var fruits = []string{"apel", "salak", "tomat"}
 	var apel = fruits[:1] // akses elemen dari 0 sampai 1
 

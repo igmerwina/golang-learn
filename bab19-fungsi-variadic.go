@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainFuncVariadic() {
 	var avg = calculate(2, 3, 4, 2, 2, 5, 2, 1)
 	var msg = fmt.Sprintf("Rata-rata : %.2f", avg)
 	fmt.Println(msg)

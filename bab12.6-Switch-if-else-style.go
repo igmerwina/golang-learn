@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainCondition() {
 	point := 6
 
 	switch {
